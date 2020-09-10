@@ -1,5 +1,5 @@
 # KUKA Inverse Dynamics Data
-kuka inverse dynamics datasets that was used in the paper "Incremental Local Gaussian Regression"
+kuka inverse dynamics datasets that were used in the paper "Incremental Local Gaussian Regression"
 
 ```
 @incollection{NIPS2014_5594,  
@@ -32,7 +32,7 @@ The numbers with which I have normalized the outputs:
 Kuka_real data:  
 `norm_out = [40.0, 40.0, 20.0, 20.0, 4.0, 4.0, 2.0]`
 
-Kuka_sim data (In simulation everything is a bit different :) ):
+Kuka_sim data (In simulation everything is a bit different :) ):  
 `norm_out = [50, 70.0, 20, 20, 4,  4.0, 2.0]`
 
 So, to get the torque MSE error in original torque space for joint 1 (real data),
